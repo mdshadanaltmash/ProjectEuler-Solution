@@ -1,15 +1,8 @@
-"""a=int(input("enter a number "))
-rev=0
-n=[]
-temp=a
-while (a>0):
-    d=a%10
-    rev=(rev*10)+d
-    a=a//10
-    
-if temp==rev:
-    n.append(rev)
-print (n)"""
+"""A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+
+Find the largest palindrome made from the product of two 3-digit numbers.
+
+"""
 
 
 def palin(n):
